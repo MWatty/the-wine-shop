@@ -21,14 +21,16 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    
 }
+
 
 .main-logo-link {
     width: fit-content;
 }
 
 .shop-now-button {
-    background: black;
+    background:black;
     color: white;
     min-width: 260px;
 }
@@ -55,6 +57,12 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
+.bg-black {
+    background: #000 !important;
+}
+
+
 
 /* -------------------------------- Media Queries */
 
