@@ -1,108 +1,249 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# THE WINE SHOP
 
-Welcome MWatty,
+Milestone Project 4 - FULLSTACK FRAMEWORKS - Code Institute 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![MS4 The Wine Shop]( "MS4 - The Wine Shop")
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Demo 
 
-## Gitpod Reminders
+A live demo can be found [here]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX 
 
-`python3 -m http.server`
+### Strategy 
 
-A blue button should appear to click: _Make Public_,
+The Wine Shop - is, as the name suggests, a website that sells wine.  
 
-Another blue button should appear to click: _Open Browser_.
+### User Stories 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Visitor Goals 
 
-A blue button should appear to click: _Make Public_,
+* As a visitor, I want to understand the main purpose of the site. 
+* As a visitor, I want the site to be simple to navigate.
+* As a visitor, I want to quickly find information about wine. 
+* As a visitor, I want to register an account so that I can add, update, edit and delete information I have provided.  
+* As a visitor, I want the site to be visually appealing.
+* As a visitor, I want the site to be accessible and responsive on all devices. 
 
-Another blue button should appear to click: _Open Browser_.
+#### Site owner goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* As a site owner, I want this site to be responsive so that visitors can have a good experience on all devices. 
+* As a site owner, I want visitors to find this site visually appealing.  
+* As a site owner, I want visitors to enjoy and interact with the site.
+ 
 
-To log into the Heroku toolbelt CLI:
+### Scope
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Structure 
 
-------
+* In order to meet the expectation of "The Wine Shop" users,  the website aims to stick to convention 
+in its layout and architecture.
 
-## Release History
+* There is a header and footer section on each page, with a "The Wine Shop" title in the header. Clicking on this
+title will take the user back to the landing page of the website and this is, as mentioned above, 
+an expected and understood convention. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* There is a Log In / Registration Feature which enables users to create an account.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* All elements of the website are easily discoverable and aim to ensure that the user can get to their desired destination within 3 clicks. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The colouring, theme and terminology used throughout the website is consistent.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* The website is interactive and provides lots of feedback to the user. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* The architecture of this website has been carefully considered with the user in mind and allows for ease of movement through the content. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Information on this section has been inspired by the information on [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Skeleton 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+All wireframes were created using [Balsamiq](http://balsamiq.com)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Please find full PDF versions of wireframes and sketches below:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* [Mobile Wireframe]()
+* [Tablet Wireframe]()
+* [Desktop Wireframe]()
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Database Architecture
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Surface 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Design 
 
-------
+* The overall design of the website is  simple. The site owner wants the user to simply navigate and 
+understand what is on offer without being inundated with information. Clear text and imagery are used to achieve this. 
 
-## FAQ about the uptime script
+#### Colour 
 
-**Why have you added this script?**
+* 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* When choosing the colours the [Colour Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) was used to assist.
 
-**How will this affect me?**
+#### Typography
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Lato was chosen as this is a simple, classy and unfussy font which will be clear and easy to read. 
+This was chosen using [google fonts](https://fonts.google.com/)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* font-family: 'Lato', sans-serif;
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Images 
 
-**So….?**
+* The background image used throughout the website has been carefully chosen to ensure the theme of the website is maintained throughout. 
+  
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Final Project Variations 
 
-**Can I opt out?**
+#### Navigation Bar
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+ 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### Main Container Landing Page
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+ 
 
----
 
-Happy coding!
+## Features 
+
+### Existing Features 
+
+*	This website is responsive on all device 
+*	There are interactive elements throughout the website 
+ 
+
+
+
+### Log In / Registration 
+
+* These are standard simple log in / registration pages allowing the user to simply navigate between each.
+
+ 
+
+## Technologies Used 
+
+### Languages
+
+* [HTML5](https://www.graycelltech.com/why-use-html-5/) was used as this is the latest Hypertext Markup Language and this is the standard language for describing the contents and appearance of Web Pages.
+
+* [CSS](https://www.w3schools.com/css/css_intro.asp) is used to define styles for web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+* [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) is used to program the behaviour of webpages.
+
+* [Python](https://www.python.org/) is used to ensure interaction between the webpages and the database. 
+
+### Libraries 
+
+ 
+
+* [Google-Fonts](https://fonts.google.com/) were used to style the website fonts and ensure they complimented each other.
+
+* [Balsamiq](https://balsamiq.com/) used to create the wireframes. 
+
+* [Font Awesome](https://fontawesome.com/) was used to add font icons to the website. 
+
+* [JQuery](https://jquery.com/) was used to make the use of JavaScript on the website easier. 
+
+### Version Control 
+
+* [GIT](https://git-scm.com/) was used as version control in utilising [Gitpod](https://gitpod.io) to add code, commit and push to [GitHub](https://github.com).
+
+* [Gitpod](https://gitpod.io) was used as this is an open source platform for automated and ready to code development environments that blends into your existing workflow.
+
+* [GitHub](https://github.com) was used as a hosting platform for version control.
+
+### Tools and Other Resources 
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) was used to edit pages and diagnose problems quickly. 
+
+* [Browserling](https://www.browserling.com/) was used for cross browser testing.
+
+* [Am I responsive](http://ami.responsivedesign.is) was used to create a mock up.
+
+* [Web Formatter](https://webformatter.com/html) used to correctly indent files. 
+
+* [Heroku](https://id.heroku.com) was used to delpoy the app. 
+
+
+
+* [Black](black.vercel.app) was used to format the Python code. 
+
+## Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
+
+* [WC3 Markup Validation Serivce]
+
+* [W3C CSS Validation Service](
+
+JShint was used to detect errors and potential problems within the JavaScript Code. The only issues identified in JShint as per 
+the results below related to the use of 'let' which are is available in ES6, this is not a cause for concern. 
+
+* [JShint](https://jshint.com/) - [
+
+* [PEP8](http://pep8online.com/checkresult) - 
+
+### Testing User Stories from User Experience (UX) Section
+
+#### Visitors 
+
+ 
+#### Site Owner 
+
+
+### Further Testing
+
+
+
+#### Devices 
+
+
+
+#### Issues identified during testing 
+
+
+### Features Tested 
+
+
+
+
+## Deployment 
+
+
+
+## Credits 
+
+### Content 
+
+* [Wikipedia](https://www.wikipedia.org/) was used to provide informaiton for the Hike Details created by the user Maura Watkinson. 
+
+### Code 
+
+* [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) backend development, putting it all together mini project tutorial was followed and used to assist in the creation of this website. This was greatly modified to fit in with the design requirements of this website. 
+
+
+
+### Media 
+
+
+  
+
+
+### Other 
+
+* <i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+### Acknowledgements 
+
+* Thank you to the tutors at Code Institute for their support and guidance in the creation of this website.
+
+* Thank you to the Code Institute Slack Community for their tips and assistance throughout the course of creating this game.
+
+* A big thank you to my mentor Sandeep Aggarwal for his help throughout this project.
+
+
+
