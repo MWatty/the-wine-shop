@@ -46,10 +46,15 @@ def remove_from_bag(request, item_id):
 
     try:
         bag = request.session.get('bag', {})
+        print (bag)
         bag.pop(item_id)
+        print(item_id)
+        print(bag)
 
         request.session['bag'] = bag
+        print(bag)
         return HttpResponse(status=200)
 
     except Exception as e:
+        print(e)
         return HttpResponse(status=500)
