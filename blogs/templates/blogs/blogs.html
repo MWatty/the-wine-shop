@@ -18,6 +18,59 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
+
+        <div class="row mt-3">
+            {% if request.user.is_superuser %}
+            <div class="col-12 text-center">
+                <h3><a class="text-primary" href="{% url 'add_blog' %}">Add New Blog</a></h3>
+            </div>
+            {% endif %}
+            {% for blog in blogs %}
+            <div class="col-12 col-md-8 mx-auto my-2 d-flex align-items-stretch">
+                <div class="card rounded border border-dark w-75 mx-auto ">
+                    <img class="card-img-top mt-3" src="{{ blog.image_url }}" alt="{{ blog.name }}">
+                    <div class="card-body text-center ">
+    
+                        <h5 class="card-title">{{ blog.name }}</h5>
+                        <p class="card-text mb-2">{{ blog.description }}</p>
+                            <p class="mb-3">
+                                    <i class="far fa-calendar-alt"></i> {{ blog.datetime }}
+                            </p>
+                        <hr>
+                        {% if request.user.is_superuser %}
+                            <small class="ml-3">
+                                <a href="">Edit</a> | 
+                                <a class="text-danger" href="">Delete</a>
+                            </small>
+                        <hr>    
+                        {% endif %}
+            
+                        <h5 class="d-flex justify-content-start">Comments:</h5>
+                        {% for comment in comments %}
+                            {% if blog.id == comment.blog.id %}
+                            <div class="my-2 card bg-light rounded p-2 text-left">
+                                <div class="border-bottom">
+                                    <h5 class="d-inline"><i class="fas fa-user fa-sm"></i> {{comment.user_profile }}</h5>
+                                    {% if request.user.lower == comment.user_profile.lower %}
+                                    <small class="ml-3 ">
+                                        <a href="">Edit</a> | 
+                                        <a class="text-danger" href="">Delete</a>
+                                    </small>
+                                    {% endif %}
+                                </div>
+                                <h6>{{ comment.description }}</h6>
+                                <h6 class="text-right">{{ comment.datetime }}</h6>
+                                <hr>    
+                            
+                            </div>  
+                            {% endif %}  
+                        {% endfor %}
+                        <a class="text-primary" href="">Add Comment</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
         
     <div class="btt-button shadow-sm rounded-0 border border-black">
         <a class="btt-link d-flex h-100">
