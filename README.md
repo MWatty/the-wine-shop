@@ -12,24 +12,44 @@ A live demo can be found [here]()
 
 ### Strategy 
 
-The Wine Shop - is, as the name suggests, a website that sells wine.  
+The Wine Shop - is, as the name suggests, a website that sells wine .This website aims to allow customers 
+to simply and securely purchase wines of their choosing. This is aided by the fact the customer can search 
+and sort products easily and provides a seamless shopping experience thus enticing the customer to return. 
 
 ### User Stories 
 
-#### Visitor Goals 
+|   User Stories                   |   As a …            |   I want to be able to …                                                        |   So that I can …                                                             |
+|----------------------------------|---------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|   Browse Products                |                     |                                                                                 |                                                                               |
+|   1                              |   Customer          |   View all products for sale                                                    |   Make a purchase                                                             |
+|   2                              |   Customer          |   Find out information about products                                           |   I can make an informed decision on what to purchase                         |
+|   3                              |   Customer          |   View the products on any of my devices                                        |   I can make a purchase no matter where I am easily                           |
+|   4                              |   Customer          |   Simply navigate through the website                                           |   Efficiently and effectively make my purchase                                |
+|   Search & Sort Products         |                     |                                                                                 |                                                                               |
+|   5                              |   Customer          |   Search for products by name or description                                    |   Quickly make a purchase                                                     |
+|   6                              |   Customer          |   Sort the products by category                                                 |   Only view the products that I am interested in                              |
+|   7                              |   Customer          |   Sort the products by price                                                    |   Make a purchase based on my budget                                          |
+|   Register & Manage my Account   |                     |                                                                                 |                                                                               |
+|   8                              |   Customer          |   Create an account                                                             |   Return to the site and easily purchase products                             |
+|   9                              |   Return Customer   |   Login to my account                                                           |   return to the site and make purchases quickly                               |
+|   10                             |   Return Customer   |   Login to my account                                                           |   Return to the site and look at my order history                             |
+|   11                             |   Return Customer   |   Login and logout of my account                                                |   Acces my profile securely                                                   |
+|   12                             |   Return Customer   |   Recover my account if I forget my password                                    |   Gain access to my profile                                                   |
+|   13                             |   Return Customer   |   Access my profile                                                             |   Update my personal details if they change                                   |
+|   Checkout & Pay                 |                     |                                                                                 |                                                                               |
+|   14                             |   Customer          |   Select a quantity of items                                                    |   Add the items to my basket                                                  |
+|   15                             |   Customer          |   Remove items from my basket                                                   |   Only purchase the products that I want                                      |
+|   16                             |   Customer          |   View a list of the products in my basket and the individual and total costs   |   Figure out exactly what I am purchasing and the cost of the purchase        |
+|   17                             |   Customer          |   Enter my details to make a payment                                            |   Pay for my items and ensure they are delivered to the correct address       |
+|   18                             |   Customer          |   Pay for my items securely                                                     |   Be assured my details are safe and payment handled securely                 |
+|   19                             |   Customer          |   Confirm that my order has been processed                                      |   Be sure that my purchase has gone through and I will receive the products   |
+|   Site Administration            |                     |                                                                                 |                                                                               |
+|   21                             |   Site Owner        |   Add and remove products from the site                                         |   Ensure all products details are up to date and correct                      |
+|   22                             |   Site Owner        |   Edit product details                                                          |   Change product details where necessary                                      |
+|                                  |                     |                                                                                 |                                                                               |
+			
 
-* As a visitor, I want to understand the main purpose of the site. 
-* As a visitor, I want the site to be simple to navigate.
-* As a visitor, I want to quickly find information about wine. 
-* As a visitor, I want to register an account so that I can add, update, edit and delete information I have provided.  
-* As a visitor, I want the site to be visually appealing.
-* As a visitor, I want the site to be accessible and responsive on all devices. 
 
-#### Site owner goals
-
-* As a site owner, I want this site to be responsive so that visitors can have a good experience on all devices. 
-* As a site owner, I want visitors to find this site visually appealing.  
-* As a site owner, I want visitors to enjoy and interact with the site.
  
 
 ### Scope
@@ -41,7 +61,7 @@ The Wine Shop - is, as the name suggests, a website that sells wine.
 * In order to meet the expectation of "The Wine Shop" users,  the website aims to stick to convention 
 in its layout and architecture.
 
-* There is a header and footer section on each page, with a "The Wine Shop" title in the header. Clicking on this
+* There is a header section on each page, with a "The Wine Shop" title in the header. Clicking on this
 title will take the user back to the landing page of the website and this is, as mentioned above, 
 an expected and understood convention. 
 
@@ -80,7 +100,8 @@ understand what is on offer without being inundated with information. Clear text
 
 #### Colour 
 
-* 
+* The colour theme used throughout the website is simple and minimalist, the theme was specifically chose to allow 
+for the images to stand out and ensure that users can fully appreciate the products for sale. 
 
 * When choosing the colours the [Colour Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) was used to assist.
 
@@ -93,7 +114,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 #### Images 
 
-* The background image used throughout the website has been carefully chosen to ensure the theme of the website is maintained throughout. 
+* The background image used on the website homepage has been carefully chosen to ensure the theme of the website is understood on first glance. 
   
 
 ### Final Project Variations 
@@ -168,9 +189,9 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * [Heroku](https://id.heroku.com) was used to delpoy the app. 
 
-
-
 * [Black](black.vercel.app) was used to format the Python code. 
+
+* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) was used to create the user stories table.
 
 ## Testing 
 
