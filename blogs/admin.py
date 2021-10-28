@@ -29,8 +29,6 @@ class CommentAdmin(admin.ModelAdmin):
     
     ordering = ('blog',)
     
-
-
 # Register your models here.
 admin.site.register(Blog, BlogAdmin)
 admin.site.register(Comment, CommentAdmin)

@@ -69,7 +69,7 @@ def add_comment(request, blog_id):
             messages.error(request, 'Failed to add comment. Please ensure the form is valid.')
     else:
         form = CommentForm()
-   
+
     template = 'blogs/add_comment.html'
     user_profile = get_object_or_404(UserProfile, user=request.user)
     blog = get_object_or_404(Blog, pk=blog_id)

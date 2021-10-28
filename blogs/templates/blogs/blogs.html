@@ -55,7 +55,7 @@
                                 <h5 class="d-inline"><i class="fas fa-user fa-sm"></i> {{comment.user_profile }}</h5>
                                 {% if request.user.lower == comment.user_profile.lower %}
                                 <small class="ml-3 ">
-                                    <a href="{% url 'edit_comment' comment.id %}">Edit</a> | 
+                                    <a href="{% url 'edit_comment' comment.id %}">Edit</a> |
                                     <a class="text-danger" href="{% url 'delete_comment' comment.id %}">Delete</a>
                                 </small>
                                 {% endif %}
