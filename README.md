@@ -509,25 +509,35 @@ The following process assumes that GMail will be used for sending and receiving 
 
 ## Credits 
 
-* 
-
 ### Content 
 
-* [Wikipedia](https://www.wikipedia.org/) was used to provide informaiton for the Hike Details created by the user Maura Watkinson. 
+
+* [Ireland Before you Die](https://www.irelandbeforeyoudie.com/five-irish-wines-you-must-try-before-you-die/) content 
+and imagery was used from here for the blog post Irish Wine 2021. 
+
+* [Super Valu](https://supervalu.ie/) imagery and notes were used for the wine content on this website. 
 
 ### Code 
 
-* [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) backend development, putting it all together mini project tutorial was followed and used to assist in the creation of this website. This was greatly modified to fit in with the design requirements of this website. 
+* [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) Full Stack Frameworks with Django Project Botique Ado was followed and used to assist in the creation of this website. This was modified to fit in with the requirements of this website. 
+
+* [Docs Django Project](https://docs.djangoproject.com/en/3.2/intro/tutorial01/) information was used here to assist in 
+the creation of this project. 
+
+* [You Tube](https://www.youtube.com/watch?v=_uwucNViakk) was used as a tool to help understand datasets on Kaggle.
 
 
 
 ### Media 
 
-
+* Photo by <a href="https://unsplash.com/@scottiewarman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Warman</a> on <a href="https://unsplash.com/s/photos/wine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
 
 
 ### Other 
+
+* [Tables Generator](https://www.tablesgenerator.com/markdown_tables) was used in the creation of the table for the User Stories. 
 
 * <i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
