@@ -229,6 +229,9 @@ the results below related to the use of 'let' which are is available in ES6, thi
 * Delete Comment functionality within the Blog Posts was not working, after checking through code there 
 was an error blog id was being used instead of comment id. 
 
+* Font color was too light and some users adivsed it was difficult to read therefore changes the colour to black to 
+improve the user experience. 
+
 ### Features Tested 
 
 
