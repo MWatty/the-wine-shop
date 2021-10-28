@@ -89,7 +89,7 @@ def edit_blog(request, blog_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-   
+
     blog = get_object_or_404(Blog, pk=blog_id)
     if request.method == 'POST':
         form = BlogForm(request.POST, instance=blog)
@@ -153,7 +153,7 @@ def delete_blog(request, blog_id):
 
 
 @login_required
-def delete_comment(request, blog_id):
+def delete_comment(request, comment_id):
 
     """ Delete a comment """
     comment = get_object_or_404(Comment, pk=comment_id)

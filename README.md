@@ -226,6 +226,8 @@ the results below related to the use of 'let' which are is available in ES6, thi
 
 #### Issues identified during testing 
 
+* Delete Comment functionality within the Blog Posts was not working, after checking through code there 
+was an error blog id was being used instead of comment id. 
 
 ### Features Tested 
 

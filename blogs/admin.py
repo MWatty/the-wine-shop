@@ -10,8 +10,7 @@ class BlogAdmin(admin.ModelAdmin):
         'datetime',
     )
 
-    ordering = ('name',) # to do a reverse ordering just stick a minus 
-                         # infront of the word 'name'
+    ordering = ('name',)
 
 
 class CommentAdmin(admin.ModelAdmin):
@@ -26,9 +25,10 @@ class CommentAdmin(admin.ModelAdmin):
         'description',
         'datetime',
         )
-    
+
     ordering = ('blog',)
-    
+
+
 # Register your models here.
 admin.site.register(Blog, BlogAdmin)
 admin.site.register(Comment, CommentAdmin)
