@@ -41,8 +41,8 @@
                     <hr>
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a href="{% url 'edit_blog' blog.id %}">Edit</a> | 
-                            <a class="text-danger" href="{% url 'delete_blog' blog.id %}">Delete</a>
+                            <a href="{% url 'edit_blog' blog.id %}"><i class="far fa-edit"></i></a> | 
+                            <a class="text-danger" href="{% url 'delete_blog' blog.id %}"><i class="fas fa-trash-alt"></i></a>
                         </small>
                     <hr>    
                     {% endif %}
@@ -55,8 +55,8 @@
                                 <h5 class="d-inline"><i class="fas fa-user fa-sm"></i> {{comment.user_profile }}</h5>
                                 {% if request.user.lower == comment.user_profile.lower %}
                                 <small class="ml-3 ">
-                                    <a href="{% url 'edit_comment' comment.id %}">Edit</a> |
-                                    <a class="text-danger" href="{% url 'delete_comment' comment.id %}">Delete</a>
+                                    <a href="{% url 'edit_comment' comment.id %}"><i class="far fa-edit"></i></a> |
+                                    <a class="text-danger" href="{% url 'delete_comment' comment.id %}"><i class="fas fa-trash-alt"></i></a>
                                 </small>
                                 {% endif %}
                             </div>
