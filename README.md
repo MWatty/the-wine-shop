@@ -50,10 +50,9 @@ and sort products easily and provides a seamless shopping experience thus entici
 			
 
 
- 
-
 ### Scope
 
+* The site owner wants to create a website that acts as a one stop shop for all a persons wine needs, that simply breaks down the categories and offers succinct and simple information relating to the wine, the site owner also wants to sell wines that are affordable. The site owner also through the new feature of the blog create a space where people can learn about wines and improve interaction through the use of comments. 
  
 
 ### Structure 
@@ -84,11 +83,18 @@ All wireframes were created using [Balsamiq](http://balsamiq.com)
 Please find full PDF versions of wireframes and sketches below:
 
 * [Mobile Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20MOBILE.pdf)
-* [Tablet Wireframe]()
-* [Desktop Wireframe]()
+* [Tablet Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20TABLET.pdf)
+* [Desktop Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20DESKTOP.pdf)
 
 #### Database Architecture
 
+* SQLLite3 was used during the development phase, this is an included feature in the Django installation. 
+
+* Heroku Postgres is used in the production site. 
+
+* Please see teh database schema below:
+
+![Database Schema]( "Database Schema")
 
 
 ### Surface 
@@ -121,12 +127,46 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 #### Navigation Bar
 
- 
+* A navigation link "Blog" was added to the navigation bar. 
+
+* The dropdown feature on the all wines section was added to the final site as this ensures user stories could be met and items can be filtered by price, origin and Category. 
+
 
 #### Main Container Landing Page
 
+* The Banner with the information on Deliveries was added as an additional feature. 
 
- 
+#### All Wines Page
+
+* The additional sory by feature was added to allow for an enhanced user experience. 
+
+* Also, the title at the top of the page under the banner was added "WINES" to act as an additional signpost for the user.
+
+* When a superuser is logged in there are also the additional icons to edit and delete products, this feature was not shown on the initial wireframes and was considered an essential feature in development in order to meet the site owner user stories. 
+
+#### Sign In 
+
+* The remember feature was added to the sign in page, this is a nice feature to enhance the user experience. 
+
+* The forgot password? prompt was also added in to ensure that user stories were met and to allow user to reset their passwords should they need to. 
+
+#### Shopping Bag 
+
+* Update and remove buttons were added in to ensure that the user had the ability to update and remove as per the user stories. 
+
+* The note with regard free delivery was also added in to this page to bring the offer to the attneion of the user.
+
+#### Blog 
+
+* The add a blog post page was added to the site to allow superusers to create and add blog content. 
+
+* Superusers can also edit the blog post by clicking on the edit button. 
+
+#### Comments 
+
+* The comment feature was added to the blog post to allow for increased interaction between users and the site owner. 
+
+* Edit and Delete comment features are available for logged in users. 
 
 
 ## Features 
@@ -157,9 +197,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * [Python](https://www.python.org/) is used to ensure interaction between the webpages and the database. 
 
-### Libraries 
-
- 
+### Framework, Libraries & API
 
 * [Google-Fonts](https://fonts.google.com/) were used to style the website fonts and ensure they complimented each other.
 
@@ -168,6 +206,21 @@ This was chosen using [google fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/) was used to add font icons to the website. 
 
 * [JQuery](https://jquery.com/) was used to make the use of JavaScript on the website easier. 
+
+* [Django](https://www.djangoproject.com/) is used as main web framework for the website.
+
+* [Django Crispyforms](https://django-crispy-forms.readthedocs.io/en/latest/#) is used for simplifying forms through Python.
+
+* [Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) is used for user login and user registration.
+
+* [Bootstrap](https://getbootstrap.com/) is used as this lends itself to quickly design and custokise mobile first sites. 
+
+* Stripe](https://stripe.com/) is used for the payment system in the checkout app.
+
+* [Gunicorn](https://gunicorn.org/) is used for the deployment to Heroku.
+
+* [Psycopg2](https://pypi.org/project/psycopg2/) is used as an adapter for PostgreSQL with Django. 
+
 
 ### Version Control 
 
@@ -195,43 +248,11 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 ## Testing 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
-
-* [WC3 Markup Validation Serivce]
-
-* [W3C CSS Validation Service](
-
-JShint was used to detect errors and potential problems within the JavaScript Code. The only issues identified in JShint as per 
-the results below related to the use of 'let' which are is available in ES6, this is not a cause for concern. 
-
-* [JShint](https://jshint.com/) - [
-
-* [PEP8](http://pep8online.com/checkresult) - 
+Details on testing are stored in a seperate file [here]()
 
 ### Testing User Stories from User Experience (UX) Section
 
 For details on testing user stories from user experience please go [here](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/userstory.md)
-
-
-### Further Testing
-
-
-
-#### Devices 
-
-
-
-#### Issues identified during testing 
-
-* Delete Comment functionality within the Blog Posts was not working, after checking through code there 
-was an error blog id was being used instead of comment id. 
-
-* Font color was too light and some users adivsed it was difficult to read therefore changes the colour to black to 
-improve the user experience. 
-
-### Features Tested 
-
-
 
 
 ## Deployment 
@@ -511,7 +532,6 @@ The following process assumes that GMail will be used for sending and receiving 
 
 ### Content 
 
-
 * [Ireland Before you Die](https://www.irelandbeforeyoudie.com/five-irish-wines-you-must-try-before-you-die/) content 
 and imagery was used from here for the blog post Irish Wine 2021. 
 
@@ -521,20 +541,18 @@ and imagery was used from here for the blog post Irish Wine 2021.
 
 * [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment) Full Stack Frameworks with Django Project Botique Ado was followed and used to assist in the creation of this website. This was modified to fit in with the requirements of this website. 
 
-* [Docs Django Project](https://docs.djangoproject.com/en/3.2/intro/tutorial01/) information was used here to assist in 
-the creation of this project. 
+* [Docs Django Project](https://docs.djangoproject.com/en/3.2/intro/tutorial01/) information was used here to assist in the creation of this project. 
 
 * [You Tube](https://www.youtube.com/watch?v=_uwucNViakk) was used as a tool to help understand datasets on Kaggle.
-
 
 
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@scottiewarman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Warman</a> on <a href="https://unsplash.com/s/photos/wine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+* [Super Valu](https://supervalu.ie/) imagery and notes were used for the wine content on this website. 
   
   
-
-
 ### Other 
 
 * [Tables Generator](https://www.tablesgenerator.com/markdown_tables) was used in the creation of the table for the User Stories. 
