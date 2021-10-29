@@ -31,7 +31,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * Results - No errors identified 
 
-* [W3C CSS Validation Service]()
+* [W3C CSS Validation Service](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%201.png "CSS1")
+
+* [W3C CSS Validation Service](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%202.png "CSS2")
 
 ### JavaScript
 
@@ -79,7 +81,7 @@ Checked changes to GitHub within this time and identified that the return respon
 
 * Return response was added to the webhooks.py file, and webhooks are operating successfully. Please see screeshot below. 
 
-ADD SCREENSHOT
+[Webhooks](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/Webhook%20Success.png "Webhooks")
 
 ##### Email 
 
