@@ -144,6 +144,8 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * When a superuser is logged in there are also the additional icons to edit and delete products, this feature was not shown on the initial wireframes and was considered an essential feature in development in order to meet the site owner user stories. 
 
+* This page also shows the number of products on the page and what category page you are viewing. 
+
 #### Sign In 
 
 * The remember feature was added to the sign in page, this is a nice feature to enhance the user experience. 
@@ -173,15 +175,55 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 ### Existing Features 
 
-*	This website is responsive on all device 
-*	There are interactive elements throughout the website 
+*	This website is responsive on all device.
+*	There are interactive elements throughout the website.
+
+### Landing Page
+
+#### Header
+
+* The header is on every page throughout the site, to allow for ease of navigation. 
+
+##### Navigation
+* A navigation bar is, as expected, located across the top of th page, this notifies the user of the home, log in and registration pages, search functionality and the categories of products on offer. 
+
+##### Log In / Registration 
+
+* There are standard simple login and registration facilities on the home page allowing the user to simply create an account or log in to their own account. 
+
+* The account will have to be verified, the user will receive an email to verify their account and once they do tehy can log in. 
+
+##### Search 
  
+* There is a search functionality within the header of the landing page allowing the user to quickly and easily search for products that they may be looking for. 
+ 
+* There is also a shop now feature on the hero image, that takes the user to the All Wines Page. 
+
+##### Shopping Cart
+
+* As the user shops this cart will update with the products and price. 
+
+### Wines Pages 
+
+* The pages that showcase the wines allow the user to click on the product find out further information and add the product to their basket in quantities of their choosing. 
+
+* The products can also be sorted by price, origin, name or category. 
+
+### Payment 
+
+* Users can make payments through stripe. 
+
+* Once payment has been completed, users will get a pop up order confirmation on screen together with an email confirming their order. 
+
+### SuperUser
+
+* The superuser has the ability to add, delete and edit products, blog posts and comments. 
+
+### Comments 
+
+* A logged in user has the ability to edit and delete their own posts. 
 
 
-
-### Log In / Registration 
-
-* These are standard simple log in / registration pages allowing the user to simply navigate between each.
 
  
 
