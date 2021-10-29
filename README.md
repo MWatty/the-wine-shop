@@ -224,8 +224,15 @@ This was chosen using [google fonts](https://fonts.google.com/)
 * A logged in user has the ability to edit and delete their own posts. 
 
 
+### Features left to implement 
 
- 
+* Guest Checkout.
+* Payment options would be improved to include Apple Pay, Klarna etc. 
+* Further products would be added to the store.
+* Sign in would be enhanced to include Google, Apple etc. 
+* Gift Cards would be an option to purchase as a gift. 
+* Enhanced vetting on the age of customers to ensure they are over 18 years old. 
+
 
 ## Technologies Used 
 
