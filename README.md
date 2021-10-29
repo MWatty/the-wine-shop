@@ -2,7 +2,7 @@
 
 Milestone Project 4 - FULLSTACK FRAMEWORKS - Code Institute 
 
-![MS4 The Wine Shop]("MS4 - The Wine Shop")
+![MS4 The Wine Shop](https://github.com/MWatty/the-wine-shop/blob/main/media/Mock%20Up.png "MS4 - The Wine Shop")
 
 ## Demo 
 
