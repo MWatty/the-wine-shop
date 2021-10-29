@@ -37,10 +37,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### JavaScript
 
-JShint was used to detect errors and potential problems within the JavaScript Code. The only issues identified in JShint as per 
-the results below related to the use of 'let' which are is available in ES6, this is not a cause for concern. 
-
-* [JShint](https://jshint.com/) - [
+* [JShint](https://jshint.com/)  was used to detect errors and potential problems within the JavaScript Code. There are no errors identfied with 
+the exception of "template literal syntax" which is only availble in ES6.
 
 ### Python
 
