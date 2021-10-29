@@ -4,7 +4,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### HTML
 
-* Unclosed div and duplicate ID found during validation of HTML, errors rectified and no further issues identified during HTML Validation. 
+* Unclosed div and duplicate ID found on landing during validation of HTML, errors rectified. 
 
 * [WC3 Markup Validation Serivce]()
 
@@ -41,5 +41,16 @@ was an error blog id was being used instead of comment id.
 
 * Font color was too light and some users adivsed it was difficult to read therefore changes the colour to black to 
 improve the user experience. 
+
+##### Webhooks 
+
+* Identified that webhooks were failing when carrying out a purchase. 
+
+* Carried out an assessment and identified that webhooks were working less than 48hrs before this issue was identified.
+Checked changes to GitHub within this time and identified that the return response had been accidentially deleted. 
+
+* Return response was added to the webhooks.py file, and webhooks are operating successfully. Please see screeshot below. 
+
+ADD SCREENSHOT
 
 ### Features Tested 
