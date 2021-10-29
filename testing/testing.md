@@ -2,18 +2,27 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 
+### HTML
+
 * Unclosed div and duplicate ID found during validation of HTML, errors rectified and no further issues identified during HTML Validation. 
 
 * [WC3 Markup Validation Serivce]()
 
 
+### CSS 
 
-* [W3C CSS Validation Service](
+* Results - No errors identified 
+
+* [W3C CSS Validation Service]()
+
+### JavaScript
 
 JShint was used to detect errors and potential problems within the JavaScript Code. The only issues identified in JShint as per 
 the results below related to the use of 'let' which are is available in ES6, this is not a cause for concern. 
 
 * [JShint](https://jshint.com/) - [
+
+### Python
 
 * [PEP8](http://pep8online.com/checkresult) - 
 
