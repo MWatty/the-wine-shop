@@ -2,7 +2,11 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 
-* [WC3 Markup Validation Serivce]
+* Unclosed div and duplicate ID found during validation of HTML, errors rectified and no further issues identified during HTML Validation. 
+
+* [WC3 Markup Validation Serivce]()
+
+
 
 * [W3C CSS Validation Service](
 
