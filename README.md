@@ -44,8 +44,8 @@ and sort products easily and provides a seamless shopping experience thus entici
 |   18                             |   Customer          |   Pay for my items securely                                                     |   Be assured my details are safe and payment handled securely                 |
 |   19                             |   Customer          |   Confirm that my order has been processed                                      |   Be sure that my purchase has gone through and I will receive the products   |
 |   Site Administration            |                     |                                                                                 |                                                                               |
-|   21                             |   Site Owner        |   Add and remove products from the site                                         |   Ensure all products details are up to date and correct                      |
-|   22                             |   Site Owner        |   Edit product details                                                          |   Change product details where necessary                                      |
+|   20                             |   Site Owner        |   Add and remove products from the site                                         |   Ensure all products details are up to date and correct                      |
+|   21                            |   Site Owner        |   Edit product details                                                          |   Change product details where necessary                                      |
 |                                  |                     |                                                                                 |                                                                               |
 			
 
