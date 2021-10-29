@@ -210,10 +210,7 @@ the results below related to the use of 'let' which are is available in ES6, thi
 
 ### Testing User Stories from User Experience (UX) Section
 
-#### Visitors 
-
- 
-#### Site Owner 
+For details on testing user stories from user experience please go [here](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/userstory.md)
 
 
 ### Further Testing
