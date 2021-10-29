@@ -4,7 +4,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### HTML
 
-* Unclosed div and duplicate ID found on landing during validation of HTML, errors rectified. 
+* Validated code from "view page source" in Chrome. 
+
+
+    1. Landing Page - 0 errors
+    2. All Products - 0 errors
+    3. Wines By price, Origin, Category, Red, White, Rose & Bubbles - 0 errors
+    4. Blog & Comment - 0 errors
+    5. Add New Blog - 0 errors
+    6. Edit Blog - 0 errors
+    7. Add Comment - 0 errors
+    8. Edit Comment - 0 errors
+    9. Edit Product - 3 errors  
+    10. Add a Product - 2 errors 
+    11. My Profile - 0 errors
+    12. Individual Product Page - 0 errors
+    13. Shopping Bag - 4 errors (Duplicate ID's)
+    14. Checkout - 0 errors
+    15. Order Confirmation - 0 errors 
+    16. Sign Out Page - 0 errors 
 
 * [WC3 Markup Validation Serivce]()
 
@@ -36,11 +54,21 @@ the results below related to the use of 'let' which are is available in ES6, thi
 
 #### Issues identified during testing 
 
-* Delete Comment functionality within the Blog Posts was not working, after checking through code there 
-was an error blog id was being used instead of comment id. 
+##### Delete Comment 
 
-* Font color was too light and some users adivsed it was difficult to read therefore changes the colour to black to 
-improve the user experience. 
+* Identified that delete comments was not working during testing. 
+
+*  Assessed the code and identified that the incorrect ID was being used.
+
+* The ID was updated and the Delete comment is not operating as expected. 
+
+##### Font Colour 
+
+* Feeback from users noted that the font was difficult to read particularly on mobile devices. 
+
+* Changes the weight and colour of lato to improve the user experience. 
+
+* Following the change feedback from users is that the content is much easier to read.  
 
 ##### Webhooks 
 
@@ -52,5 +80,14 @@ Checked changes to GitHub within this time and identified that the return respon
 * Return response was added to the webhooks.py file, and webhooks are operating successfully. Please see screeshot below. 
 
 ADD SCREENSHOT
+
+##### Email 
+
+* Identified that when an order was placed the user was not receiving their order confirmation email. 
+
+* As above, this was working less than 48hrs before testing, identified that the DEVFELOPMENT Config var
+was running. 
+
+* Removed the DEVELOPMENT Config Var and confirmed that email confirmation is operational. 
 
 ### Features Tested 
