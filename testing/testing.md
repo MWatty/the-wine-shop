@@ -4,7 +4,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### HTML
 
-* Validated each individual page using, example screenshots below. 
+Validated each individual page using, example screenshots below. 
 
 * [Landing Page](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/Landing%20Page%20HTML%20Validation.png "Landing Page")
 
@@ -14,7 +14,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### CSS 
 
-* Results - No errors identified 
+Results - No errors identified 
 
 * [CSS1 Results](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%201.png "CSS1 Results")
 
@@ -30,7 +30,7 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 ### Python
 
 Both tools below were used to assist in assessing syntax for python code. There are outstanding issues in relation to lines being too long, 
-this was discussed with my mentor and advise was provided that althought best practice this was not essential and does not impact the 
+this was discussed with my mentor and advise was provided that although best practice this was not essential and does not impact the 
 functionality of the website, therefore the issues with lines being too long are acknowledged and in future action will be taken to address those issues. 
 
 * [PEP8 Online Check](http://pep8online.com/)
@@ -38,15 +38,16 @@ functionality of the website, therefore the issues with lines being too long are
 
 Examles of results below:
 
-* [Extends Class Results bag contexts]( "Extends Class Results bag contexts")
+* [Extends Class Results bag contexts](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/bag%20contexts%20py%20python%20validation.png "Extends Class Results bag contexts")
 
-* [Extends Class Results blog admin]( "Extends Class Results blog admin")
+* [Extends Class Results blog admin](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/blog%20admin%20py%20python%20validation.png "Extends Class Results blog admin")
 
-* [PEP8 Online bag view]( "PEP8 Online bag view")
+* [PEP8 Online bag view](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/bag%20view%20py.png "PEP8 Online bag view")
 
-* [PEP8 Online blog models]( "Extends Class Results blog models")
+* [PEP8 Online blog models](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/blog%20models%20py.png "Extends Class Results blog models")
 
 
+The following files were tested: 
 
 #### Bag  
 
@@ -132,7 +133,7 @@ Examles of results below:
 
 #### Devices 
 
-Tested the game functionality on the devices listed below: 
+Tested the website functionality on the devices listed below: 
 
 * Mac Book Pro 
 * iPhone 11 
@@ -146,7 +147,7 @@ Tested the game functionality on the devices listed below:
 
 * Identified that delete comments was not working during testing. 
 
-*  Assessed the code and identified that the incorrect ID was being used.
+* Assessed the code and identified that the incorrect ID was being used.
 
 * The ID was updated and the Delete comment is not operating as expected. 
 
@@ -154,7 +155,7 @@ Tested the game functionality on the devices listed below:
 
 * Feeback from users noted that the font was difficult to read particularly on mobile devices. 
 
-* Changes the weight and colour of lato to improve the user experience. 
+* Changes to the type and colour of lato were carried out to improve the user experience. 
 
 * Following the change feedback from users is that the content is much easier to read.  
 
@@ -165,7 +166,7 @@ Tested the game functionality on the devices listed below:
 * Carried out an assessment and identified that webhooks were working less than 48hrs before this issue was identified.
 Checked changes to GitHub within this time and identified that the return response had been accidentially deleted. 
 
-* Return response was added to the webhooks.py file, and webhooks are operating successfully. Please see screeshot below. 
+* Return response was added to the webhooks.py file, and webhooks are operating successfully. Please see screeshot below:  
 
 [Webhooks](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/Webhook%20Success.png "Webhooks")
 
@@ -188,7 +189,7 @@ was running.
 
 ##### Responsiveness 
 
-* One issues was identified during teesting on an IPad. There is no link to return to the home screen. It time permitted this error would have been fixed using a media query. 
+* One issue was identified during testing on an IPad. There is no link to return to the home screen. It time permitted this error would have been fixed using a media query. 
 
 
 ### Features Tested 
@@ -196,7 +197,7 @@ was running.
 #### Header / Navigation Bar
 
 * Tested all links on the header navigation bar and all are working and leading the user to the expected location. 
-* The search functionality is also worked as expected. 
+* The search functionality is also working as expected. 
 * "The Wine Shop" link also works are allows users to return to the home page. 
 
 #### Hero Image / Shop Now 
@@ -205,7 +206,7 @@ was running.
 
 #### Log In 
 
-* Clicked on My Account, Login and was brought to the Log In screen correctly. 
+* Clicked on My Account, Login, and was brought to the Log In screen correctly. 
 * Entered incorrect details are was greeted with a message "The username and/or password you specified are not correct."
 * Confirmed the signposting to the sign up page is working. "If you have not created an account yet, then please sign up first."
 * Password reset functionality is working as expected. 
@@ -215,8 +216,8 @@ was running.
 
 #### Registration 
 
-* Clicked on My Account, Register and was brought to the Sign Up screen correctly. 
-* As expected Sign Up working correctly when detials were entered. 
+* Clicked on My Account, Register, and was taken to the Sign Up screen correctly. 
+* As expected Sign Up is working correctly when details entered. 
 * Back to log in button redirected as expected. 
 * "Already have an account? Then please sign in." This also worked as expected. 
 * Verify account worked as expected and email was received to verify. 
@@ -225,16 +226,16 @@ was running.
 #### Shopping Bag 
 
 * Cliked on individual product and was taken as expected to the individual product page. 
-* Increase and decreasing quantiy of the product was successful. 
+* Increase and decreasing quantity of the product was successful. 
 * The keep shopping link redirected to the correct page. 
-* For Superuser both the edit and delete functionality operated successfully. 
-* When clicked Add to Bag, a pop up appeared showing the bad was updated with the details and product price. 
-* Clicked on Shopping Bag icon in the top right corner as this directed me to the Shopping Bag as required. 
+* For the Superuser, both the edit and delete functionality operated successfully. 
+* When clicked Add to Bag, a pop up appeared showing the bag was updated with the details and product price. 
+* Clicked on Shopping Bag icon in the top right corner and this directed to the Shopping Bag as required. 
 * Products available to view within the shopping bag. 
-* Correct costs availabe to view on this page also. 
+* Correct costs available to view on this page also. 
 * Free Delivery notification contains the correct information.
 * The option to update and remove products working as expected. 
-* Message received for both update and remove advising action has been successful. 
+* Message received for both update and remove, advising action has been successful. 
 * Keep shopping link redirects to the correct page. 
 * Clicked on Secure Checkout and this redirected to the Checkout as expected. 
 
@@ -250,7 +251,7 @@ was running.
 
 * Onscreen order confirmation details correctly shown. 
 * Confirmation email received. 
-* Pop up message also recived. 
+* Pop up message also received. 
 * "Maybe you should order some more!" button working and redirecting as expected. 
 
 #### Stripe 
@@ -267,17 +268,21 @@ was running.
 
 * Superuser, blog management adding, editing and deleting products working successfully. 
 * Messages appearing as expected.
-* Logged in regular users could not access this feature. 
+* Logged in regular users cannot access this feature. 
 
 #### Comment Management 
 
-* Superuser, comment managemnt adding, editing and deleting comments working successfully. 
+* Superuser, comment management adding, editing and deleting comments working successfully. 
 * Messages appearing as expected.
 * Logged in user had correct permissions to edit and delete their comments. 
 
 #### Logout 
 
-* Logout working successful and lead to the sign out screen which also works. 
+* Logout working successfully and leads to the sign out screen which also works. 
 * Messages appearing as expected.
+
+#### Crud
+
+* Wesbite extensively tested to ensure the Create, Read, Update and Delete requirements are met.
 
 

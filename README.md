@@ -52,7 +52,9 @@ and sort products easily and provides a seamless shopping experience thus entici
 
 ### Scope
 
-* The site owner wants to create a website that acts as a one stop shop for all a persons wine needs, that simply breaks down the categories and offers succinct and simple information relating to the wine, the site owner also wants to sell wines that are affordable. The site owner also through the new feature of the blog create a space where people can learn about wines and improve interaction through the use of comments. 
+* The site owner wants to create a website that acts as a one stop shop for a persons wine needs, that simply breaks down the categories and offers 
+succinct and simple information relating to the wine. The site owner also wants to sell wines that are affordable. The site owner also through the 
+new feature of the blog wants to create a space where people can learn about wines and improve interaction through the use of comments. 
  
 
 ### Structure 
@@ -92,7 +94,7 @@ Please find full PDF versions of wireframes and sketches below:
 
 * Heroku Postgres is used in the production site. 
 
-* Please see teh database schema below:
+* Please see the database schema below:
 
 ![Database Schema]( "Database Schema")
 
@@ -101,12 +103,12 @@ Please find full PDF versions of wireframes and sketches below:
 
 #### Design 
 
-* The overall design of the website is  simple. The site owner wants the user to simply navigate and 
+* The overall design of the website is simple. The site owner wants the user to simply navigate and 
 understand what is on offer without being inundated with information. Clear text and imagery are used to achieve this. 
 
 #### Colour 
 
-* The colour theme used throughout the website is simple and minimalist, the theme was specifically chose to allow 
+* The colour theme used throughout the website is simple and minimalist, the theme was specifically chosen to allow 
 for the images to stand out and ensure that users can fully appreciate the products for sale. 
 
 * When choosing the colours the [Colour Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) was used to assist.
@@ -120,7 +122,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 #### Images 
 
-* The background image used on the website homepage has been carefully chosen to ensure the theme of the website is understood on first glance. 
+* The background image used on the website homepage has been carefully chosen to ensure the theme of the website is understood at first glance. 
   
 
 ### Final Project Variations 
@@ -129,26 +131,27 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * A navigation link "Blog" was added to the navigation bar. 
 
-* The dropdown feature on the all wines section was added to the final site as this ensures user stories could be met and items can be filtered by price, origin and Category. 
+* The dropdown feature on the all wines section was added to the final site as this ensures user stories could be met and items can be filtered by price, origin and category. 
 
 
 #### Main Container Landing Page
 
-* The Banner with the information on Deliveries was added as an additional feature. 
+* The Banner with the information on deliveries was added as an additional feature. 
 
 #### All Wines Page
 
-* The additional sory by feature was added to allow for an enhanced user experience. 
+* The additional sort by feature was added to allow for an enhanced user experience. 
 
 * Also, the title at the top of the page under the banner was added "WINES" to act as an additional signpost for the user.
 
-* When a superuser is logged in there are also the additional icons to edit and delete products, this feature was not shown on the initial wireframes and was considered an essential feature in development in order to meet the site owner user stories. 
+* When a superuser is logged in there are also additional icons to edit and delete products, this feature was not shown on the 
+initial wireframes and was considered an essential feature in development in order to meet the site owner user stories. 
 
 * This page also shows the number of products on the page and what category page you are viewing. 
 
 #### Sign In 
 
-* The remember feature was added to the sign in page, this is a nice feature to enhance the user experience. 
+* The remember me feature was added to the sign in page, this is a nice feature to enhance the user experience. 
 
 * The forgot password? prompt was also added in to ensure that user stories were met and to allow user to reset their passwords should they need to. 
 
@@ -156,7 +159,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * Update and remove buttons were added in to ensure that the user had the ability to update and remove as per the user stories. 
 
-* The note with regard free delivery was also added in to this page to bring the offer to the attneion of the user.
+* The note with regard free delivery was also added in to this page to bring the offer to the attention of the user.
 
 #### Blog 
 
@@ -175,7 +178,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 ### Existing Features 
 
-*	This website is responsive on all device.
+*	This website is responsive on all device, please see testing document for one minor exception.
 *	There are interactive elements throughout the website.
 
 ### Landing Page
@@ -185,13 +188,13 @@ This was chosen using [google fonts](https://fonts.google.com/)
 * The header is on every page throughout the site, to allow for ease of navigation. 
 
 ##### Navigation
-* A navigation bar is, as expected, located across the top of th page, this notifies the user of the home, log in and registration pages, search functionality and the categories of products on offer. 
+* A navigation bar is, as expected, located across the top of the page, this notifies the user of the home, log in and registration pages, search functionality and the categories of products on offer. 
 
 ##### Log In / Registration 
 
 * There are standard simple login and registration facilities on the home page allowing the user to simply create an account or log in to their own account. 
 
-* The account will have to be verified, the user will receive an email to verify their account and once they do tehy can log in. 
+* The account will have to be verified, the user will receive an email to verify their account and once they do they can log in. 
 
 ##### Search 
  
@@ -264,7 +267,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * [Bootstrap](https://getbootstrap.com/) is used as this lends itself to quickly design and custokise mobile first sites. 
 
-* Stripe](https://stripe.com/) is used for the payment system in the checkout app.
+* [Stripe](https://stripe.com/) is used for the payment system in the checkout app.
 
 * [Gunicorn](https://gunicorn.org/) is used for the deployment to Heroku.
 
@@ -291,13 +294,15 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * [Heroku](https://id.heroku.com) was used to delpoy the app. 
 
-* [Black](black.vercel.app) was used to format the Python code. 
+* [PEP8 Online Check](http://pep8online.com/) was used to check Python syntax.
+
+* [Extends Class](https://extendsclass.com/python-tester.html) was used to check Python syntax.
 
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) was used to create the user stories table.
 
 ## Testing 
 
-Details on testing are stored in a seperate file [here]()
+Details on testing are stored in a seperate file [here](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing.md)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -593,6 +598,10 @@ and imagery was used from here for the blog post Irish Wine 2021.
 * [Docs Django Project](https://docs.djangoproject.com/en/3.2/intro/tutorial01/) information was used here to assist in the creation of this project. 
 
 * [You Tube](https://www.youtube.com/watch?v=_uwucNViakk) was used as a tool to help understand datasets on Kaggle.
+
+* [You Tube](https://www.youtube.com/watch?v=hZrlh4qU4eQ) was used to assist in creating the blog section.
+
+* [You Tube](https://www.youtube.com/watch?v=hZrlh4qU4eQ) was used to assist in creating a blog comments section. 
 
 
 ### Media 
