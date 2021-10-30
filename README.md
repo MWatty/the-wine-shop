@@ -156,6 +156,16 @@ Please find full PDF versions of wireframes and sketches below:
 
 ![Database Schema]( "Database Schema")
 
+Databases have been setup in models.py within the apps including:
+
+* Categories
+* Products
+* Blogs 
+* Comments 
+* Profiles
+* Checkout 
+
+Further information about Django database models can be found [here](https://docs.djangoproject.com/en/3.1/topics/db/models/#field-options).
 
 ### Surface 
 
