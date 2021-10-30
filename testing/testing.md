@@ -165,6 +165,14 @@ was running.
 
 * Edit and Delete should ideally be changed to icons in keeping with the other edit and delete icons throughout. 
 
+##### Blog Management Form 
+
+* The form ideally should be formatted in keeping with the product management form, if time allowed this would have been completed. 
+
+##### Responsiveness 
+
+* One issues was identified during teesting on an IPad. There is no link to return to the home screen. It time permitted this error would have been fixed using a media query. 
+
 ### Features Tested 
 
 #### Header / Navigation Bar
