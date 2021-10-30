@@ -106,15 +106,21 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 2. manage.py
 
 
-
-
-
 ### Further Testing
 
+* The Website was tested on Google Chrome, Firefox, Opera Microsoft Edge and Safari browsers.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
 #### Devices 
 
+Tested the game functionality on the devices listed below: 
+
+* Mac Book Pro 
+* iPhone 11 
+* Honor 10 
+* Lenovo Laptop (Windows 10) 
 
 
 #### Issues identified during testing 
@@ -155,4 +161,97 @@ was running.
 
 * Removed the DEVELOPMENT Config Var and confirmed that email confirmation is operational. 
 
+##### Individual Product Page 
+
+* Edit and Delete should ideally be changed to icons in keeping with the other edit and delete icons throughout. 
+
 ### Features Tested 
+
+#### Header / Navigation Bar
+
+* Tested all links on the header navigation bar and all are working and leading the user to the expected location. 
+* The search functionality is also worked as expected. 
+* "The Wine Shop" link also works are allows users to return to the home page. 
+
+#### Hero Image / Shop Now 
+
+* The "Shop now" link is working as expected and takes the user to the All Products page.
+
+#### Log In 
+
+* Clicked on My Account, Login and was brought to the Log In screen correctly. 
+* Entered incorrect details are was greeted with a message "The username and/or password you specified are not correct."
+* Confirmed the signposting to the sign up page is working. "If you have not created an account yet, then please sign up first."
+* Password reset functionality is working as expected. 
+* Using account details that had been set up, log in worked successfully. 
+* Message pop up received "Successfully signed in as maura84"
+* Remember me also worked as intended. 
+
+#### Registration 
+
+* Clicked on My Account, Register and was brought to the Sign Up screen correctly. 
+* As expected Sign Up working correctly when detials were entered. 
+* Back to log in button redirected as expected. 
+* "Already have an account? Then please sign in." This also worked as expected. 
+* Verify account worked as expected and email was received to verify. 
+
+
+#### Shopping Bag 
+
+* Cliked on individual product and was taken as expected to the individual product page. 
+* Increase and decreasing quantiy of the product was successful. 
+* The keep shopping link redirected to the correct page. 
+* For Superuser both the edit and delete functionality operated successfully. 
+* When clicked Add to Bag, a pop up appeared showing the bad was updated with the details and product price. 
+* Clicked on Shopping Bag icon in the top right corner as this directed me to the Shopping Bag as required. 
+* Products available to view within the shopping bag. 
+* Correct costs availabe to view on this page also. 
+* Free Delivery notification contains the correct information.
+* The option to update and remove products working as expected. 
+* Message received for both update and remove advising action has been successful. 
+* Keep shopping link redirects to the correct page. 
+* Clicked on Secure Checkout and this redirected to the Checkout as expected. 
+
+#### Checkout 
+
+* Completed the checkout form with missing details and as expected received warnings. 
+* Order summary available to view on the right hand side for desktop and on top for smaller devices. 
+* Adjust bag directing to the correct page. 
+* Incorrect card details entered and error message received. 
+* Correct card details entered and payment successful. 
+
+#### Order Confirmation 
+
+* Onscreen order confirmation details correctly shown. 
+* Confirmation email received. 
+* Pop up message also recived. 
+* "Maybe you should order some more!" button working and redirecting as expected. 
+
+#### Stripe 
+
+* Webhooks succeeded follwoing order. 
+
+#### Product Management 
+
+* Superuser, product management adding, editing and deleting products working successfully. 
+* Messages appearing as expected.
+* Logged in regular users cannot as expected access this feature. 
+
+#### Blog Management 
+
+* Superuser, blog management adding, editing and deleting products working successfully. 
+* Messages appearing as expected.
+* Logged in regular users could not access this feature. 
+
+#### Comment Management 
+
+* Superuser, comment managemnt adding, editing and deleting comments working successfully. 
+* Messages appearing as expected.
+* Logged in user had correct permissions to edit and delete their comments. 
+
+#### Logout 
+
+* Logout working successful and lead to the sign out screen which also works. 
+* Messages appearing as expected.
+
+
