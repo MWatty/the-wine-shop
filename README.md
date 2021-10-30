@@ -12,7 +12,7 @@ A live demo can be found [here](https://mw-the-wine-shop.herokuapp.com/)
 
 ### Strategy 
 
-The Wine Shop - is, as the name suggests, a website that sells wine .This website aims to allow customers 
+The Wine Shop - is, as the name suggests, a website that sells wine.This website aims to allow customers 
 to simply and securely purchase wines of their choosing. This is aided by the fact the customer can search 
 and sort products easily and provides a seamless shopping experience thus enticing the customer to return. 
 
@@ -53,13 +53,13 @@ and sort products easily and provides a seamless shopping experience thus entici
 ### Scope
 
 * The site owner wants to create a website that acts as a one stop shop for a persons wine needs, that simply breaks down the categories and offers 
-succinct and simple information relating to the wine. The site owner also wants to sell wines that are affordable. The site owner also through the 
-new feature of the blog wants to create a space where people can learn about wines and improve interaction through the use of comments. 
+succinct and simple information relating to the wine. The site owner also wants to sell wines that are affordable. The site owner, through the 
+new feature of the blog, wants to create a space where people can learn about wines and improve interaction through the use of comments. 
  
 
 ### Structure 
 
-* In order to meet the expectation of "The Wine Shop" users,  the website aims to stick to convention 
+* In order to meet the expectation of "The Wine Shop" users, the website aims to stick to convention 
 in its layout and architecture.
 
 * There is a header section on each page, with a "The Wine Shop" title in the header. Clicking on this
@@ -85,7 +85,9 @@ All wireframes were created using [Balsamiq](http://balsamiq.com)
 Please find full PDF versions of wireframes and sketches below:
 
 * [Mobile Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20MOBILE.pdf)
+
 * [Tablet Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20TABLET.pdf)
+
 * [Desktop Wireframe](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/THE%20WINE%20SHOP%20DESKTOP.pdf)
 
 #### Database Architecture
@@ -142,7 +144,7 @@ This was chosen using [google fonts](https://fonts.google.com/)
 
 * The additional sort by feature was added to allow for an enhanced user experience. 
 
-* Also, the title at the top of the page under the banner was added "WINES" to act as an additional signpost for the user.
+* Also, the title at the top of the page under the banner was added ("WINES") to act as an additional signpost for the user.
 
 * When a superuser is logged in there are also additional icons to edit and delete products, this feature was not shown on the 
 initial wireframes and was considered an essential feature in development in order to meet the site owner user stories. 
@@ -153,7 +155,7 @@ initial wireframes and was considered an essential feature in development in ord
 
 * The remember me feature was added to the sign in page, this is a nice feature to enhance the user experience. 
 
-* The forgot password? prompt was also added in to ensure that user stories were met and to allow user to reset their passwords should they need to. 
+* The forgot password? prompt was also added in to ensure that user stories were met and to allow the user to reset their passwords should they need to. 
 
 #### Shopping Bag 
 
@@ -178,7 +180,7 @@ initial wireframes and was considered an essential feature in development in ord
 
 ### Existing Features 
 
-*	This website is responsive on all device, please see testing document for one minor exception.
+*	This website is responsive on all devices, please see testing document for one minor exception.
 *	There are interactive elements throughout the website.
 
 ### Landing Page
@@ -208,7 +210,7 @@ initial wireframes and was considered an essential feature in development in ord
 
 ### Wines Pages 
 
-* The pages that showcase the wines allow the user to click on the product find out further information and add the product to their basket in quantities of their choosing. 
+* The pages that showcase the wines allow the user to click on the product, find out further information and add the product to their basket in quantities of their choosing. 
 
 * The products can also be sorted by price, origin, name or category. 
 
@@ -274,6 +276,7 @@ initial wireframes and was considered an essential feature in development in ord
 * [Psycopg2](https://pypi.org/project/psycopg2/) is used as an adapter for PostgreSQL with Django. 
 
 
+
 ### Version Control 
 
 * [GIT](https://git-scm.com/) was used as version control in utilising [Gitpod](https://gitpod.io) to add code, commit and push to [GitHub](https://github.com).
@@ -293,6 +296,8 @@ initial wireframes and was considered an essential feature in development in ord
 * [Web Formatter](https://webformatter.com/html) used to correctly indent files. 
 
 * [Heroku](https://id.heroku.com) was used to delpoy the app. 
+
+* [Amazon Web Services](https://aws.amazon.com/) used to store static files and images. 
 
 * [PEP8 Online Check](http://pep8online.com/) was used to check Python syntax.
 
