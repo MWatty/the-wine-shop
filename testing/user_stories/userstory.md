@@ -11,20 +11,20 @@
 
 ![All Products](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%201.png "All Products")
 
-2. As a customer, I want to be able to Find out information about products, so that I can make I can make an informed decision on what to purchase. 
+2. As a customer, I want to be able to find out information about products, so that I can make an informed decision on what to purchase. 
 
     1. Upon entering the site, users are greeted by the navigation bar and can choose the type of product they wish to view. 
     2. The user can also click on individual products to gather information on price, origin and tasting notes. 
 
-![Informaiton About Products](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%202.png "Information about Products")
+![Information About Products](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%202.png "Information about Products")
 
-3. As a customer, I want to be able to View the products on any of my devices, so that I can make a purchase no matter where I am, easily. 
+3. As a customer, I want to be able to view the products on any of my devices, so that I can make a purchase no matter where I am, easily. 
 
     1. The site has been designed to be responsive on all devices so that users can make purchases simply and get a great user experience no matter the device. 
 
 ![Responsive](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%203.png "Responsive")
      
-4. As a customer, I want to be able to Simply navigate through the website, so that I can efficiently and effectively make my purchase.
+4. As a customer, I want to be able to simply navigate through the website, so that I can efficiently and effectively make my purchase.
 
     1. Upon entering the site, users are greeted by the navigation bar and its very clear how to navigate, the design has maintained an expected user convention.
     2. The way in which the site is developed simply guides users from step to step thus allowing for a seamless transaction. 
@@ -32,7 +32,7 @@
 
 ![Navigation](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%204.png "Navigation")
 
-5. As a customer, I want to be able to Search for products by name or description, so that I can I can quickly make a purchase.
+5. As a customer, I want to be able to search for products by name or description, so that I can quickly make a purchase.
 
     1. Upon entering the site, users are greeted by the navigation bar which contains a search bar. 
     2. The user can search for words and specific products.
@@ -40,15 +40,15 @@
 
 ![Search](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%205.png "Search")
 
-6. As a customer, I want to be able to Sort the products by category, so that I can only view the products that I am interested in.
+6. As a customer, I want to be able to sort the products by category, so that I can only view the products that I am interested in.
 
     1. Upon entering the site, users are greeted by the navigation bar which provides the user with many options in terms of sorting. 
-    2. The user can use the navigation links in place or can use the search functionaltity.
+    2. The user can use the navigation links in place or can use the search functionality.
     3. In a simple click the user can sort their product choices.
 
 ![Sort](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%206.png "Sort")
 
-7. As a customer, I want to be able to Sort the products by price, so that I can make a purchase based on my budget.
+7. As a customer, I want to be able to sort the products by price, so that I can make a purchase based on my budget.
 
     1. Upon entering the site, users are greeted by the navigation bar this navigation bar allows the user to sort all of the wines by price allowing the user to make purchases based on their budget. 
 
@@ -98,10 +98,10 @@
 
 ![Payment](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%2017.png "Payment")  
 
-14. As a customer, I want to be able to confirm that my order has been processed, so that I can be sure that my purchase has gone through and I will receive the products .
+14. As a customer, I want to be able to confirm that my order has been processed, so that I can be sure that my purchase has gone through and I will receive the products.
 
-    1. Immediately after making the purchase, the user will get an order confirmaiton on the screen to confirm if has been processed. 
-    2. The user will also receive an email to confirm the order details. 
+    1. Immediately after making the purchase, the user will get an order confirmaiton on the screen to confirm their order has been processed. 
+    2. The user will also receive an email to confirm their order details. 
 
 ![Order Confirmation](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%2019.png "Order Confirmation") 
 
@@ -114,7 +114,7 @@
 
 ![Log In](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%209.png "Log In")  
 
-2. As a returning customer,I want to be able to Login to my account,so that I can return to the site and look at my order history.
+2. As a returning customer,I want to be able to login to my account,so that I can return to the site and look at my order history.
 
     1. The user once logged back into their account can view their order history. 
 
@@ -127,9 +127,9 @@
 ![Login Logout](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%2011.png "Login Logout")  
    
 
-4. As a returning customer, I want to be able to recover my account if I forget my password,so that I can Gain access to my profile.
+4. As a returning customer, I want to be able to recover my account if I forget my password,so that I can gain access to my profile.
 
-    1. Should the user forget their password / log in detials there is functionality to recover this. 
+    1. Should the user forget their password / log in details there is functionality to recover this. 
 
 ![Recover](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%2012.png "Recover")
 
@@ -142,14 +142,14 @@
    
 #### Site Owner 
 
- 1. As the site owner, I want to be able to add and remove products from the site , so that I can ensure all product details are up to date and correct.
+ 1. As the site owner, I want to be able to add and remove products from the site, so that I can ensure all product details are up to date and correct.
 
     1. The site owner can simply add and remove products from the site.
 
 ![Add and Remove](https://github.com/MWatty/the-wine-shop/blob/main/testing/user_stories/User%20Story%20Screenshots/User%20Story%2020.png "Add and Remove")
   
 
-2. As the site owner, I want to be able to edit product details , so that I can change product details where necessary.
+2. As the site owner, I want to be able to edit product details, so that I can change product details where necessary.
 
     1. The site owner can also edit details of products on the site. 
 
