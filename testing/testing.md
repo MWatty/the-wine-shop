@@ -186,6 +186,10 @@ was running.
 
 * One issue was identified during testing on an IPad. There is no link to return to the home screen. It time permitted this error would have been fixed using a media query. 
 
+##### Hero Image 
+
+* The hero image should have been further compressed [tiny png](https://tinypng.com/) to reduce the size and improve loading speed. 
+
 
 ### Features Tested 
 
