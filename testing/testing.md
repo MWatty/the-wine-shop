@@ -121,7 +121,7 @@ The following files were tested:
 
 ### Further Testing
 
-* The Website was tested on Google Chrome, Firefox, Opera Microsoft Edge and Safari browsers.
+* The Website was tested on Google Chrome and Safari browsers.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -140,19 +140,19 @@ Tested the website functionality on the devices listed below:
 
 ##### Delete Comment 
 
-* Identified that delete comments was not working during testing. 
+* Identified that delete comments were not working during testing. 
 
 * Assessed the code and identified that the incorrect ID was being used.
 
-* The ID was updated and the Delete comment is not operating as expected. 
+* The ID was updated and the delete comment is now operating as expected. 
 
 ##### Font Colour 
 
-* Feeback from users noted that the font was difficult to read particularly on mobile devices. 
+* Feedback from users noted that the font was difficult to read particularly on mobile devices. 
 
-* Changes to the type and colour of lato were carried out to improve the user experience. 
+* Changes to the type and colour of "Lato" were carried out to improve the user experience. 
 
-* Following the change feedback from users is that the content is much easier to read.  
+* Following the change, feedback from users is that the content is much easier to read.  
 
 ##### Webhooks 
 
@@ -169,7 +169,7 @@ Checked changes to GitHub within this time and identified that the return respon
 
 * Identified that when an order was placed the user was not receiving their order confirmation email. 
 
-* As above, this was working less than 48hrs before testing, identified that the DEVFELOPMENT Config var
+* As above, this was working less than 48hrs before testing, identified that the DEVELOPMENT Config var
 was running. 
 
 * Removed the DEVELOPMENT Config Var and confirmed that email confirmation is operational. 
@@ -197,16 +197,16 @@ was running.
 
 * Tested all links on the header navigation bar and all are working and leading the user to the expected location. 
 * The search functionality is also working as expected. 
-* "The Wine Shop" link also works are allows users to return to the home page. 
+* "The Wine Shop" link also works and allows users to return to the home page. 
 
 #### Hero Image / Shop Now 
 
-* The "Shop now" link is working as expected and takes the user to the All Products page.
+* The "Shop Now" link is working as expected and takes the user to the All Products page.
 
 #### Log In 
 
 * Clicked on My Account, Login, and was brought to the Log In screen correctly. 
-* Entered incorrect details are was greeted with a message "The username and/or password you specified are not correct."
+* Entered incorrect details and was greeted with a message "The username and/or password you specified are not correct."
 * Confirmed the signposting to the sign up page is working. "If you have not created an account yet, then please sign up first."
 * Password reset functionality is working as expected. 
 * Using account details that had been set up, log in worked successfully. 
@@ -219,14 +219,14 @@ was running.
 * As expected Sign Up is working correctly when details entered. 
 * Back to log in button redirected as expected. 
 * "Already have an account? Then please sign in." This also worked as expected. 
-* Verify account worked as expected and email was received to verify. 
+* Verify account worked as expected,and email was received to verify. 
 
 
 #### Shopping Bag 
 
-* Cliked on individual product and was taken as expected to the individual product page. 
+* Clicked on individual product and was taken as expected to the individual product page. 
 * Increase and decreasing quantity of the product was successful. 
-* The keep shopping link redirected to the correct page. 
+* The "Keep Shopping" link redirected to the correct page. 
 * For the Superuser, both the edit and delete functionality operated successfully. 
 * When clicked Add to Bag, a pop up appeared showing the bag was updated with the details and product price. 
 * Clicked on Shopping Bag icon in the top right corner and this directed to the Shopping Bag as required. 
@@ -255,7 +255,7 @@ was running.
 
 #### Stripe 
 
-* Webhooks succeeded follwoing order. 
+* Webhooks succeeded following order. 
 
 #### Product Management 
 
