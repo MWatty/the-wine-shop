@@ -38,7 +38,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### JavaScript
 
 * [JShint](https://jshint.com/)  was used to detect errors and potential problems within the JavaScript Code. There are no errors identfied with 
-the exception of "template literal syntax" which is only availble in ES6.
+the exception of "template literal syntax" which is only availble in ES6. Please see a screenshot of an example of the results for this site below. 
+
+* [J Shint]()
 
 ### Python
 
