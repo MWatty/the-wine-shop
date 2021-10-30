@@ -29,7 +29,85 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 
 ### Python
 
-* [PEP8](http://pep8online.com/checkresult) - 
+* [Extends Class](https://extendsclass.com/python-tester.html) - 
+
+#### Bag  
+
+1. admin.py
+2. apps.py
+3. contexts.py
+4. models.py
+5. tests.py
+6. urls.py
+7. views.py 1
+
+#### Blogs 
+
+1. admin.py
+2. apps.py
+3. forms.py
+4. models.py
+5. tests.py
+6. urls.py
+7. views.py 1
+
+#### Checkout
+
+1. admin.py
+2. apps.py
+3. forms.py 1
+4. models.py 1
+5. signals.py
+6. tests.py
+7. urls.py
+8. views.py 1
+9. webhooks_handler.py 1
+10. webhooks.py
+
+#### Home
+
+1. admin.py
+2. apps.py
+3. models.py 
+3. signals.py
+5. tests.py
+6. urls.py
+7. views.py 
+
+#### Products
+
+1. admin.py
+2. apps.py
+3. models.py 
+4. tests.py
+5. urls.py
+6. views.py 1
+7. widgets.py
+
+#### Profiles
+
+1. admin.py
+2. apps.py
+3. forms.py 1
+4. models.py 
+5. tests.py
+6. urls.py
+7. views.py 1
+
+#### The Wine Shop
+
+1. asgi.py
+2. settings.py 1
+3. urls.py 
+4. wsgi.py  
+
+
+1. custom_storages.py
+2. manage.py
+
+
+
+
 
 ### Further Testing
 

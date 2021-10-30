@@ -5,10 +5,12 @@ from products.models import Product
 
 # Create your views here.
 
+
 def view_bag(request):
     """ A view that renders the bag contents page """
 
     return render(request, 'bag/bag.html')
+
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
@@ -24,7 +26,6 @@ def add_to_bag(request, item_id):
     else:
         bag[item_id] = quantity
         messages.success(request, f'Added {product.name} to your bag, sip, sip')
-
 
     request.session['bag'] = bag
     return redirect(redirect_url)
@@ -43,7 +44,6 @@ def adjust_bag(request, item_id):
     else:
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from your bag!')
-
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))

@@ -23,7 +23,6 @@ def all_blogs(request):
     return render(request, 'blogs/blogs.html', context)
 
 
-
 @login_required
 def add_blog(request):
     """ Add a blog """
@@ -41,7 +40,7 @@ def add_blog(request):
             messages.error(request, 'Failed to add blog. Please ensure the form is valid.')
     else:
         form = BlogForm()
-       
+
     template = 'blogs/add_blog.html'
     context = {
         'form': form,
