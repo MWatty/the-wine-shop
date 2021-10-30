@@ -6,26 +6,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * Validated each individual page using, example screenshots below. 
 
-* [WC3 Markup Validation Serivce]()
+* [Landing Page](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/Landing%20Page%20HTML%20Validation.png "Landing Page")
 
-* [WC3 Markup Validation Serivce]()
+* [Add a Product](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/HTML%20Validation%20Add%20a%20Product.png "Add a Product")
 
-* [WC3 Markup Validation Serivce]()
+* [Edit a Product](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/HTML%20Validation%20Edit%20a%20Product.png "Edit a Product")
 
 ### CSS 
 
 * Results - No errors identified 
 
-* [W3C CSS Validation Service](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%201.png "CSS1")
+* [CSS1 Results](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%201.png "CSS1 Results")
 
-* [W3C CSS Validation Service](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%202.png "CSS2")
+* [CSS2 Results](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/CSS%20Validation%202.png "CSS2 Results")
 
 ### JavaScript
 
 * [JShint](https://jshint.com/)  was used to detect errors and potential problems within the JavaScript Code. There are no errors identfied with 
 the exception of "template literal syntax" which is only availble in ES6. Please see a screenshot of an example of the results for this site below. 
 
-* [J Shint]()
+* [J Shint Results](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/JS%20Validation.png "J Shint Results")
 
 ### Python
 
