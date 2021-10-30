@@ -4,28 +4,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### HTML
 
-* Validated code from "view page source" in Chrome. 
-
-
-    1. Landing Page - 0 errors
-    2. All Products - 0 errors
-    3. Wines By price, Origin, Category, Red, White, Rose & Bubbles - 0 errors
-    4. Blog & Comment - 0 errors
-    5. Add New Blog - 0 errors
-    6. Edit Blog - 0 errors
-    7. Add Comment - 0 errors
-    8. Edit Comment - 0 errors
-    9. Edit Product - 1 errors  
-    10. Add a Product - 1 errors 
-    11. My Profile - 0 errors
-    12. Individual Product Page - 0 errors
-    13. Shopping Bag - 4 errors (Duplicate ID's)
-    14. Checkout - 0 errors
-    15. Order Confirmation - 0 errors 
-    16. Sign Out Page - 0 errors 
+* Validated each individual page using, example screenshots below. 
 
 * [WC3 Markup Validation Serivce]()
 
+* [WC3 Markup Validation Serivce]()
+
+* [WC3 Markup Validation Serivce]()
 
 ### CSS 
 
