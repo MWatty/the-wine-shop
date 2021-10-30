@@ -29,9 +29,7 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 
 ### Python
 
-Both tools below were used to assist in assessing syntax for python code. There are outstanding issues in relation to lines being too long, 
-this was discussed with my mentor and advise was provided that although best practice this was not essential and does not impact the 
-functionality of the website, therefore the issues with lines being too long are acknowledged and in future action will be taken to address those issues. 
+Both tools below were used to assist in assessing syntax for python code. All relevant code passed through with no issues identified. 
 
 * [PEP8 Online Check](http://pep8online.com/)
 * [Extends Class](https://extendsclass.com/python-tester.html)
@@ -41,8 +39,6 @@ Examles of results below:
 * [Extends Class Results bag contexts](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/bag%20contexts%20py%20python%20validation.png "Extends Class Results bag contexts")
 
 * [Extends Class Results blog admin](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/blog%20admin%20py%20python%20validation.png "Extends Class Results blog admin")
-
-* [PEP8 Online bag view](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/bag%20view%20py.png "PEP8 Online bag view")
 
 * [PEP8 Online blog models](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/blog%20models%20py.png "Extends Class Results blog models")
 
@@ -115,9 +111,8 @@ The following files were tested:
 #### The Wine Shop
 
 1. asgi.py
-2. settings.py 
-3. urls.py 
-4. wsgi.py  
+2. urls.py 
+3. wsgi.py  
 
 
 1. custom_storages.py
