@@ -152,9 +152,9 @@ Please find full PDF versions of wireframes and sketches below:
 
 * Heroku Postgres is used in the production site. 
 
-* Please see the database schema below:
+* Please see the entity relationship diagram below:
 
-![Database Schema]( "Database Schema")
+![Entity Relationship Diagram](https://github.com/MWatty/the-wine-shop/blob/main/media/wireframes/The%20Wine%20Shop%20Schema.png "Entity Relationship Diagram")
 
 Databases have been setup in models.py within the apps including:
 
