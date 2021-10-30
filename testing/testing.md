@@ -22,15 +22,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### JavaScript
 
-* [JShint](https://jshint.com/)  was used to detect errors and potential problems within the JavaScript Code. There are no errors identfied with 
+* [JShint](https://jshint.com/) was used to detect errors and potential problems within the JavaScript Code. There are no errors identfied with 
 the exception of "template literal syntax" which is only availble in ES6. Please see a screenshot of an example of the results for this site below. 
 
 * [J Shint Results](https://github.com/MWatty/the-wine-shop/blob/main/testing/testing_screenshots/JS%20Validation.png "J Shint Results")
 
 ### Python
 
+Both tools below were used to assist in assessing syntax for python code. There are outstanding issues in relation to lines being too long, 
+this was discussed with my mentor and advise was provided that althought best practice this was not essential and does not impact the 
+functionality of the website, therefore the issues with lines being too long are acknowledged and in future action will be taken to address those issues. 
+
 * [PEP8 Online Check](http://pep8online.com/)
 * [Extends Class](https://extendsclass.com/python-tester.html)
+
+Examles of results below:
+
+* [Extends Class Results bag contexts]( "Extends Class Results bag contexts")
+
+* [Extends Class Results blog admin]( "Extends Class Results blog admin")
+
+* [PEP8 Online bag view]( "PEP8 Online bag view")
+
+* [PEP8 Online blog models]( "Extends Class Results blog models")
+
+
 
 #### Bag  
 
@@ -40,7 +56,7 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 4. models.py
 5. tests.py
 6. urls.py
-7. views.py 1
+7. views.py 
 
 #### Blogs 
 
@@ -49,21 +65,21 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 3. forms.py
 4. models.py
 5. tests.py
-6. urls.py
-7. views.py 1
+6. urls.py 
+7. views.py 
 
 #### Checkout
 
 1. admin.py
 2. apps.py
 3. forms.py 1
-4. models.py 1
+4. models.py 
 5. signals.py
 6. tests.py
-7. urls.py
-8. views.py 1
-9. webhooks_handler.py 1
-10. webhooks.py
+7. urls.py 
+8. views.py 
+9. webhooks_handler.py 
+10. webhooks.py 
 
 #### Home
 
@@ -82,23 +98,23 @@ the exception of "template literal syntax" which is only availble in ES6. Please
 3. models.py 
 4. tests.py
 5. urls.py
-6. views.py 1
+6. views.py 
 7. widgets.py
 
 #### Profiles
 
 1. admin.py
 2. apps.py
-3. forms.py 1
+3. forms.py 
 4. models.py 
 5. tests.py
 6. urls.py
-7. views.py 1
+7. views.py 
 
 #### The Wine Shop
 
 1. asgi.py
-2. settings.py 1
+2. settings.py 
 3. urls.py 
 4. wsgi.py  
 
